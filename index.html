@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio</title>
+    <script src="https://kit.fontawesome.com/d823196569.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <p>My<span>Portfolio</span></p>
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Projects</a></li>
+            <li><a href="#portfolio">Certifications</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <h1>
+            Hello, I'm <br><span>Charan Kumar</span>,<br />
+            a <span class="hehe">Front-End Developer</span>.
+          </h1>
+          <p><span>I believe in the power of </span>creativity and functionality <br><span class="hehe">to make the web a better place</span>. </p>
+        </div>
+        <div class="pic">
+          <img src="images/Snapchat-1415623978__01.jpg" alt="Photo">
+        </div>
+      </div>
+    </div>
+    <!-----------------about------------------->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img
+              src="images/Best 28 Batman Quotes Quotes and Humor.jpg"
+              alt=""
+            />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title-1">About Me</h1>
+            <p>
+              I am excited to embark on a professional journey that combines my academic foundation and practical skills. I'm looking forward to connect with like-minded individuals and making a positive impact on the ever-changing landscape of technology.</p>              <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('Education')">Education</p>
+                <p class="tab-links" onclick="opentab('Industrial Exposure')">Industrial Exposure</p>
+              </div>
+              <div class="tab-contents active-tab" id="skills">
+                <ul>
+                  <li><span>Front-End Web Technologies</span><br>HTML, CSS, Javascript</li>
+                  <li><span>Programming Languages</span><br>Python,  Java, C</li>
+                  <li><span>Problem Solving</span><br>I thrive to solve complex problems and find innovative solutions.</li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="Education">
+                <ul>
+                  <li><span>B.Tech in Electronics and Communication Engineering</span><br>ANITS | 2020-2024</li>
+                  <li><span>12th Standard</span><br><span></span>Sri Chaitanya Jr College | 2018-2020</li>
+                  <li><span>10th Standard</span><br>Sri Chaitanya Techno School | 2018</li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="Industrial Exposure">
+                <ul>
+                  <li><span>All India Radio (A.I.R), Visakhapatnam</span><br>Gained knowledge of the Studio Unit and Succeeded in learning about the Transmitter</li>
+                  <li><span>Bharat Sanchar Nigam Limited (BSNL), Visakhapatnam.</span><br>Gained practical insights into the telecom industry, and observed the application of theoretical concepts in a real-world setting.</li>
+                  <li><span>Naval Science & Technological Laboratory (NSTL), Visakhapatnam.</span><br>Industrial Visit</li>
+                </ul>
+              </div>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!----------------services--------------->
+    <div id="services">
+      <div class="container"><h1 class="sub-title-2">My Projects</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Text to Speech Converter</h2>
+            <p>The objective of this project is to convert the text into voice with the click of a button. This creates a text area and a button in the HTML, styles using CSS, and then uses JavaScript to add an event listener to the button that converts the text in the text area to speech when the button is clicked.</p>
+            <a href="https://charankumar69.github.io/text_to_speech/" target="_blank">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-charging-station"></i>
+            <h2>Arduino based Smartphone Charging Controller</h2>
+            <p>This project can be help full to control the charging time and once the time is up, the power to the charging adapter is disconnected.</p>
+            <a href="images/Document 6 (1).pdf" target="_blank">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-volume-low"></i>
+            <h2>Sound Decibel Meter</h2>
+            <p>A project designed to detect sound levels and their intensities(Ex. >60 Noisy). <br> Arduino Uno microprocessor is utilized while doing this project.</p>
+            <a href="#">Learn more</a>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <!---------------porfolio-------------->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title-3">Certifications</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/InShot_20231113_220344223.jpg" alt="">
+            <div class="layer">
+              <h3>Joy of Computing using Python [NPTEL]</h3>
+                <a href="https://drive.google.com/file/d/1_g9dADJc_0_FBSKbUuguurTIItCqaHGy/view?usp=drivesdk" target="_blank"><i class="fa-solid fa-link"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/InShot_20231113_215005814.jpg" alt="">
+            <div class="layer">
+              <h3>C for Everyone: Programming Fundamentals [Coursera]</h3>
+                <a href="https://www.coursera.org/account/accomplishments/certificate/J6LUULREXG3B" target="_blank"><i class="fa-solid fa-link"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/InShot_20231113_214448485.jpg" alt="">
+            <div class="layer">
+              <h3>Excel Skills for Business: Essentials [Coursera]</h3>
+                <a href="https://www.coursera.org/account/accomplishments/certificate/W2LE2RNXBUDM" target="_blank"><i class="fa-solid fa-link"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/wallpaperflare.com_wallpaper2.jpg" alt="">
+            <div class="layer">
+              <h3>Java certificate of completion [EPAM]</h3>
+                <a href="https://drive.google.com/file/d/1_Aa0wh4RUDiTR4YJzsY8ZjfDHN1Hbfzg/view?usp=drivesdk" target="_blank"><i class="fa-solid fa-link"></i></a>
+            </div>
+          </div>
+    </div>
+    <!------------contact----------->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title-4">Contact Me</h1>
+            <p><i class="fa-solid fa-envelope"></i>marvellousck@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>8790706864</p>
+            <div class="social-icons">
+              <a href="www.linkedin.com/in/charan-kumar-panja-7b44261b8"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="https://github.com/CharanKumar69"><i class="fa-brands fa-github"></i></a>
+              <a href="https://twitter.com/CharanPK12345"><i class="fa-brands fa-twitter-square"></i></a>
+              <a href="https://www.instagram.com/charankumarp20/"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <a href="images/Charan_Kumar Panja_Resume_25-10-2023-21-53-41.pdf" download class="btn btn2">Download CV</a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required>
+              <input type="email" name="Email" placeholder="Your email" required>
+              <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright © marvellousck@gmail.com</i></p>
+      </div>
+    </div>
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+          for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+          }
+          for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+          }
+          event.currentTarget.classList.add("active-link");
+          document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+
+      var sidemenu = document.getElementById("sidemenu");
+
+      function openmenu(){
+        sidemenu.style.right= "0";
+      }
+      function closemenu(){
+        sidemenu.style.right= "-200px";
+      }
+    </script>
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbwX3UGgGB0Xmr9htGTw74iW6mpVkKdfml4n3O0tOmE1VMLIzh-dzQ8KOhdDeHDJRNH_/exec'
+      const form = document.forms['submit-to-google-sheet']
+      const msg= document.getElementById("msg")
+    
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => {
+            msg.innerHTML="Message Sent Successfully"
+            setTimeout(function(){
+              msg.innerHTML=""
+            },4000)
+            form.reset()
+          })
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+  </body>
+</html>
